@@ -4,7 +4,10 @@
   "package": "me.drex.customtab.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-
+    "CommandManagerMixin",
+    "PlayerListHeaderS2CPacketMixin",
+    "PlayerManagerMixin",
+    "RconCommandOutputMixin"
   ],
   "injectors": {
     "defaultRequire": 1

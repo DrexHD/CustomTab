@@ -1,9 +1,4 @@
-# Fabric Example Mod
+# Custom Tab Mod
 
-## Setup
-
-For setup instructions please see the [fabric wiki page](https://fabricmc.net/wiki/tutorial:setup) that relates to the IDE that you are using.
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+Minecraft fabric mod, which adds a command to change header and footer of the server tab list via command 
+(Requested by SnaveSutit)
