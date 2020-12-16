@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "modid",
+  "version": "${version}",
+
+  "name": "Custom Tab",
+  "description": "Customize Tab footer and header with commands",
+  "authors": [
+    "Drex"
+  ],
+  "license": "CC0-1.0",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.drex.customtab.Mod"
+    ]
+  },
+  "mixins": [
+    "modid.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.7.4"
+  }
+}
