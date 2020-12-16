@@ -7,7 +7,8 @@
     "CommandManagerMixin",
     "PlayerListHeaderS2CPacketMixin",
     "PlayerManagerMixin",
-    "RconCommandOutputMixin"
+    "RconCommandOutputMixin",
+    "ScoreboardStateMixin"
   ],
   "injectors": {
     "defaultRequire": 1
