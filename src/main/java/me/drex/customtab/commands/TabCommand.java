@@ -5,10 +5,8 @@ import com.mojang.brigadier.builder.LiteralArgumentBuilder;
 import com.mojang.brigadier.builder.RequiredArgumentBuilder;
 import com.mojang.brigadier.context.CommandContext;
 import com.mojang.brigadier.exceptions.CommandSyntaxException;
-import me.drex.customtab.mixin.PlayerListHeaderS2CPacketMixin;
 import me.drex.customtab.util.PlayerList;
 import net.minecraft.command.argument.TextArgumentType;
-import net.minecraft.network.packet.s2c.play.PlayerListHeaderS2CPacket;
 import net.minecraft.server.command.CommandManager;
 import net.minecraft.server.command.ServerCommandSource;
 import net.minecraft.text.LiteralText;
@@ -52,5 +50,4 @@ public class TabCommand {
         ctx.getSource().sendFeedback(new LiteralText("Tab footer has been set to: ").formatted(Formatting.WHITE).append(text), false);
         return 1;
     }
-
 }
